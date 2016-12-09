@@ -1,0 +1,17 @@
+{
+  "name": "sendemail",
+  "description": "Envio de Email com SendGrid",
+  "main": "server.js",
+  "authors": [
+    "Otavio Bueno"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
