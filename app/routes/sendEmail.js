@@ -17,7 +17,7 @@ module.exports = (app) => {
             body = sendGrid.receiver(body)('Send Email Master blaster')(['emailQueRecebe@exemplo.com'])
             body = sendGrid.from(body)('emailQueEnvia@exemplo.com')
             body = sendGrid.content(body)('text/plain')('Assunto aqui')
-            const request = sendGrid.configEmail(email)(body)('tokenSendGrid')
+            const request = sendGrid.configEmail(email)(body)(process.env.sgtoken)
 
             request.then(response => {
                 console.log(response.statusCode);
