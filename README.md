@@ -25,6 +25,7 @@ Passos para consumir o exemplo na pasta routes.
     *  Opcional: Criar um Templated dentro do SendGrid.
 4. Subistituir as informações do exemplo.
 5. Execultar a aplicação conforme o exemplo abaixo (no terminal).
+
 > sgToken="seu token criado no senGrid" node server.
 
 **OBS** Se precisar de ajuda ou duvidas abrir uma issue.
